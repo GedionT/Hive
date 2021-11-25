@@ -3,6 +3,7 @@ import "./styles/index.css";
 import ReactDOM from "react-dom";
 import { BrowserRouter as Router } from "react-router-dom";
 import App from "./App";
+
 import reportWebVitals from "./utils/reportWebVitals";
 import * as serviceWorkerRegistration from "./utils/serviceWorkerRegistration";
 import ReactGA from "react-ga";

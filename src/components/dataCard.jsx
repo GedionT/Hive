@@ -10,10 +10,10 @@ import {
 import { ImageFit } from "@fluentui/react/lib/Image";
 
 const people = [
-  { name: "Annie Lindqvist", profileImageSrc: "https://img.src/ge" },
-  { name: "Roko Kolar", profileImageSrc: "", initials: "RK" },
-  { name: "Aaron Reid", profileImageSrc: "https://img.src/ge" },
-  { name: "Christian Bergqvist", profileImageSrc: "", initials: "CB" },
+  { name: "Gedion Teshome", profileImageSrc: "https://img.src/ge" },
+  { name: "Henok Fisseha", profileImageSrc: "", initials: "RK" },
+  { name: "Fasika Zewdie", profileImageSrc: "https://img.src/ge" },
+  { name: "Getachew Muhabaw", profileImageSrc: "", initials: "CB" },
 ];
 
 const oneNoteIconProps = {
@@ -46,23 +46,24 @@ export default function DataCard() {
           "Document Card with image. How to make a good design. " +
           "Last modified by Annie Lindqvist and 2 others in March 13, 2018.",
         styles: cardStyles,
-        onClickHref: "http://bing.com",
+        onClickHref: "http://github.com/gediont",
       },
       React.createElement(DocumentCardImage, {
         height: 150,
         imageFit: ImageFit.cover,
-        imageSrc: "https://img.src/ge",
+        imageSrc:
+          "https://www.saintjohnscancer.org/blog/wp-content/uploads/sites/11/2020/09/iStock-1175329868-1024x630-1.jpg",
       }),
       React.createElement(
         DocumentCardDetails,
         null,
         React.createElement(DocumentCardTitle, {
-          title: "How to make a good design",
+          title: "Campaign for Breast Cancer Awareness",
           shouldTruncate: true,
         })
       ),
       React.createElement(DocumentCardActivity, {
-        activity: "Modified March 13, 2018",
+        activity: "Modified March 13, 2021",
         people: people.slice(0, 3),
       })
     ),
@@ -73,23 +74,25 @@ export default function DataCard() {
           "Document Card with icon. How to make a good design. " +
           "Last modified by Christian Bergqvist in January 1, 2019.",
         styles: cardStyles,
-        onClickHref: "http://bing.com",
+        onClickHref: "http://github.com/gediont",
       },
       React.createElement(DocumentCardImage, {
         height: 150,
         imageFit: ImageFit.cover,
+        imageSrc:
+          "https://image.shutterstock.com/image-vector/adhd-vector-concept-male-head-600w-1969700758.jpg",
         iconProps: oneNoteIconProps,
       }),
       React.createElement(
         DocumentCardDetails,
         null,
         React.createElement(DocumentCardTitle, {
-          title: "How to make a good design",
+          title: "Teach an ADHD a skill",
           shouldTruncate: true,
         })
       ),
       React.createElement(DocumentCardActivity, {
-        activity: "Modified January 1, 2019",
+        activity: "Modified January 1, 2022",
         people: [people[3]],
       })
     )
