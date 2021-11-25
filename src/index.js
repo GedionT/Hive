@@ -1,14 +1,13 @@
 import React from "react";
-import { BrowserRouter as Router } from "react-router-dom";
-import ReactDOM from "react-dom";
 import "./styles/index.css";
+import ReactDOM from "react-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import App from "./App";
 import reportWebVitals from "./utils/reportWebVitals";
-
 import * as serviceWorkerRegistration from "./utils/serviceWorkerRegistration";
 import ReactGA from "react-ga";
 
-ReactGA.initialize("UA-xxxxxxxxxxx");
+ReactGA.initialize("UA-xxxxxxxxxx-x");
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 ReactDOM.render(
