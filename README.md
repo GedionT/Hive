@@ -85,18 +85,31 @@ This project is the result of huge research. I'm a long-time GitHub user so I've
 
 ### Built With
 
-- [GitHub Flavored Markdown Spec](https://github.github.com/gfm/)
-- [Cookiecutter](https://github.com/cookiecutter/cookiecutter)
-- [GitHub Actions](https://github.com/features/actions)
-- [markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli)
+- [React]()
+- [Nodejs]()
+- [Jest]()
+- [FluentUI]()
+- [GitHub]()
+- [GitHub Actions]()
+- [Netlify]()
+- [Postman]()
+- [Docker]()
+- [Google Analytics]()
+- [Google Maps]()
+- [MongoDB]()
+- [kSql]()
+- [Python]()
+- [Tensorflow]()
+- [Tensorflow-Serve]()
+- [Apache Kafka]()
 
 ## Getting Started
 
 ### Prerequisites
 
-The recommended method to install **Hive.Et** is by using [Cookiecutter](https://github.com/cookiecutter/cookiecutter). For manual install please refer to [manual setup section](#manual-setup).
+The recommended method to get started contributing to **Hive.Et** is by using cloning the latest commit/ version from [Hive](https://github.com/gediont/hive). You can also download the repository and then install the dependencies by extracting the directory
 
-The easiest way to install Cookiecutter is by running:
+The easiest way to start contributing to **Hive.et** after cloning is
 
 ```sh
 git clone https://github.com/gediont/hive.git
@@ -106,40 +119,30 @@ cd hive
 npm install hive
 ```
 
-For other install options, please refer to [hive installation manual](https://hive.readthedocs.io/en/latest/installation.html).
-
 ### Usage
 
-#### hive template
+#### hive frontend
 
 After installing hive, all you need to do is to run the following command:
 
 ```sh
-hive gh:gediont/hive
+npm start
 ```
 
-You will get an interactive prompt where you'll specify relevant options for your project (or the default value will be used).
+#### Features and Diagrams
 
-![Preview](docs/images/preview.svg)
+1. Steps one
+2. Step two
+3. Step three
+4. Step four
 
-#### Manual setup
+or
 
-Please follow these steps for manual setup:
+`another set of steps to follow or add descriptions accordingly here`
 
-1. [Download the precompiled template](https://github.com/gediont/hive/releases/download/latest/template.zip)
-2. Replace all the [variables](#variables-reference) to your desired values
-3. Initialize the repo in the precompiled template folder
+#### Version reference
 
-   `or`
-
-   Move the necessary files from precompiled template folder to your existing project directory. Don't forget the `.github` directory that may be hidden by default in your operating system
-
-#### Variables reference
-
-Please note that entered values are case-sensitive.
-Default values are provided as an example to help you figure out what should be entered.
-
-> On manual setup, you need to replace only values written in **uppercase**.
+> Same table description
 > | Name | Default value | Description |
 > | -------------------------- | ------------------ | --------------------------------------------------------------------------- |
 > | PROJECT_NAME | My Amazing Project | Your project name |
@@ -150,20 +153,6 @@ Default values are provided as an example to help you figure out what should be 
 > | modern_header | y | Use HTML to prettify your header |
 > | table_in_about | n | Use table to wrap around About section |
 > | include_logo | y | Include Logo section. Only valid when `modern_header == y` |
-> | include_badges | y | Include section for badges |
-> | include_toc | y | Include Table of Contents |
-> | include_screenshots | y | Include Screenshots section |
-> | include_project_assistance | y | Include Project assistance section |
-> | include_authors | y | Include Authors & contributors section |
-> | include_security | y | Include Security section and SECURITY.md file |
-> | include_acknowledgements | y | Include Acknowledgements section |
-> | include_code_of_conduct | y | Include CODE_OF_CONDUCT.md file |
-> | include_workflows | y | Include .github/workflows directory |
-> | use_codeql | y | Use [CodeQL](https://securitylab.github.com/tools/codeql/) |
-> | use_conventional_commits | y | Add [Conventional Commits](https://www.conventionalcommits.org) notice |
-> | use_github_discussions | n | Use [GitHub Discussions](https://docs.github.com/en/discussions/quickstart) |
-
-> NOTICE: to use GitHub Discussions, you have to [enable it first](https://docs.github.com/en/discussions/quickstart).
 
 ## Roadmap
 
@@ -186,8 +175,6 @@ Please try to create bug reports that are:
 
 Please adhere to this project's [code of conduct](docs/CODE_OF_CONDUCT.md).
 
-You can use [markdownlint-cli](https://github.com/igorshubovych/markdownlint-cli) to check for common markdown style inconsistency.
-
 ## Support
 
 Reach out to the maintainer at one of the following places:
@@ -205,4 +192,4 @@ See [LICENSE](LICENSE) for more information.
 
 Thanks for these awesome resources that were used during the development of the **Hive.Et**:
 
-- <https://github.com/hive/cooki>
+- <https://github.com/>
