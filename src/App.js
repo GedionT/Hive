@@ -1,21 +1,12 @@
-import logo from "./assets/hive.png";
 import "./styles/App.css";
+
+// page import
+import Home from "./pages/home";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Welcome Hivers</p>
-        <a
-          className="App-link"
-          href="https://github.com/gediont"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Under construction, Checkout Later
-        </a>
-      </header>
+      <Home />
     </div>
   );
 }
