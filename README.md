@@ -1,7 +1,5 @@
 <h1 align="center">
-  <a href="https://github.com/gediont/hive">
-    <img src="/docs/images/logo.svg" alt="Logo" width="125" height="125">
-  </a>
+    <img src="./src/assets/hive.png" alt="Logo" width="125" height="125">
 </h1>
 
 <div align="center">
@@ -67,6 +65,8 @@ Key features of **Hive.Et**:
 - Checkout organizations near you on a map
 - Start a campaign as a registered NGO or a registered company
 - Raise funds for different causes
+- Unsupervised machine learning to find insight about volunteers, skills-set, demographics...
+- Stream live attendees via apache kafka onto geo-maps
 
 <details open>
 <summary>Additional info</summary>
