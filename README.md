@@ -1,7 +1,9 @@
 <h1 align="center">
     <img src="./src/assets/hive.png" alt="Logo" width="125" height="125">
 </h1>
-
+<div align=center>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5a221ba1-1857-4bca-8dda-72f1b245eeb7/deploy-status)](https://app.netlify.com/sites/hive-et/deploys)
+<div>
 <div align="center">
   Hive.Et, Use your skills to build your community
   <br />
