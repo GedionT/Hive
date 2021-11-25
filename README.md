@@ -20,8 +20,8 @@
 
 [![license](https://img.shields.io/github/license/gediont/hive.svg?style=flat-square)](LICENSE)
 
-[![PRs welcome](https://img.shields.io/badge/PRs-welcome-ff69b4.svg?style=flat-square)](https://github.com/gediont/hive/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
-[![made with care by GedionT](https://img.shields.io/badge/made%20with%20%E2%99%A5%20by-GedionT-ff1414.svg?style=flat-square)](https://github.com/GedionT)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-a364b4.svg?style=flat-square)](https://github.com/gediont/hive/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
+[![made with care by GedionT](https://img.shields.io/badge/made%20with%20%E2%99%A5%20by-GedionT-91414.svg?style=flat-square)](https://github.com/GedionT)
 
 </div>
 
@@ -52,29 +52,28 @@
 <tr>
 <td>
 
-Open Source Software is not about the code in the first place but the communications and community. People love good documentation and obvious workflows. If your software solves some problem, but nobody can figure out how to use it or, for example, how to create an effective bug report, there's something very bad going on.
+Hive.Et is a non-for-profit organization that works to connect volunteers across all walks of life to activities and organizations that are in need of the skills possessed by the individuals in the community. Our Hivers are students, teachers, politicians, company owners, professors, accountants, ... across all walks of lives that make use of their much needed skills to good use by building their community.
 
-additional labels, code scanning, and automatic issue/PR closing and locking you have to do much more work. Your time should be focused on creating something **amazing**. You shouldn't be doing the same tasks over and over like creating your GitHub project template from scratch. Follow the **don’t repeat yourself** principle. Use a template **and go create something amazing**!
+We work for fundraising, campaigns, teaching-learning, cleaning, leasing, and much more. The services we provide is not just matching you with what you want and what is nearby and convenient, but also track all your activities to certify and acknowledge your work. We also work **with organization** to serve the custom needs of their organization to meet their **CSR goals**. CSR also known as corporate social responsibility, pertains to people and organizations behaving and conducting business ethically and with sensitivity towards social, cultural, economic, and environmental issues. Striving for social responsibility helps individuals, organizations, and governments have a positive impact on development, business, and society.
+
+Last but not least, we work with schools and education institutions to take charge of volunteers and their activities in a well-controlled manner. Students put to use their in school skills in practice and gain valuable experience by building on what they have learned in class rooms.
 
 Key features of **Hive.Et**:
 
-- Configurable README.md template
-- Configurable LICENSE template
-- Configurable CODE_OF_CONDUCT.md template
-- Configurable CONTRIBUTING.md template
-- Configurable SECURITY.md template
-- Configurable issues template
-- Pull request template
-- CODEOWNERS template
-- Additional labels template
-- Automatic locking for closed issues and PRs workflow
-- Automatic cleaning for stale issues and PRs workflow
-- Automatic label verification for PRs workflow
-- Automatic security code scanning workflow via CodeQL
+- Get matched to an organization that needs your skill
+- As a volunteer, you can track your progress and achievements
+- Print and share your progress with your friends
+- Organization can track and track-back your progress
+- Checkout organizations near you on a map
+- Start a campaign as a registered NGO or a registered company
+- Raise funds for different causes
 
 <details open>
 <summary>Additional info</summary>
 <br>
+
+This project is built based on Microsoft's Guide of Design System based on Material UI
+Our component libraries are from Fluent UI - based on Microsoft's Design System
 
 This project is the result of huge research. I'm a long-time GitHub user so I've seen more than [7.3k](https://github.com/GedionT?tab=stars) READMEs so far. I've started writing docs for my open source projects (that are currently in their early stages so they exist in the private space for now). After I've **analyzed many popular GitHub** READMEs and other GitHub-related docs and features I've tried to create a general-propose template that may be useful for any project.
 

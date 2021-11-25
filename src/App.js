@@ -9,7 +9,7 @@ function App() {
         <p>Welcome Hivers</p>
         <a
           className="App-link"
-          href="github.com/gediont"
+          href="https://github.com/gediont"
           target="_blank"
           rel="noopener noreferrer"
         >
