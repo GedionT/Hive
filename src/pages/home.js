@@ -11,14 +11,6 @@ export default function Home() {
       <header className="App-header">
         <img src={logo} alt="logo" />
         <p>Welcome Hivers</p>
-        <a
-          className="App-link"
-          href="https://github.com/gediont"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Under construction, Checkout Later
-        </a>
       </header>
     </div>
   );
