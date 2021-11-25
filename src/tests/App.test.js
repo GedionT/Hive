@@ -14,13 +14,12 @@ describe("true is truthy and false is falsy", () => {
 describe("render testing dummy tests", () => {
   test("failing test to check renders learn react link", () => {
     render(<App />);
-    const linkElement = screen.getByText(/learn react/i);
-    expect(linkElement).toBeInTheDocument();
+    expect(screen.getByText("learn react")).toBeInTheDocument();
   });
 
   test("under construction text rendered", () => {
     render(<App />);
-    const linkElement = screen.getByText(/under construction/i);
+    const linkElement = screen.getByText("Under construction");
     expect(linkElement).toBeInTheDocument();
   });
 });
