@@ -75,10 +75,11 @@ Key features of **Hive.Et**:
 <summary>Additional info</summary>
 <br>
 
-This project is built based on Microsoft's Guide of Design System based on Material UI
-Our component libraries are from Fluent UI - based on Microsoft's Design System
+This project is built based on Microsoft's Design System Guide and well known component library from microsoft
+known as Fluent UI - based on Microsoft's Design System
 
 This project is the result of huge research. I'm a long-time GitHub user so I've seen more than [7.3k](https://github.com/GedionT?tab=stars) READMEs so far. I've started writing docs for my open source projects (that are currently in their early stages so they exist in the private space for now). After I've **analyzed many popular GitHub** READMEs and other GitHub-related docs and features I've tried to create a general-propose template that may be useful for any project.
+    
 
 </details>
 
@@ -133,6 +134,8 @@ npm start
 ```
 
 #### Features and Diagrams
+
+![architecture](https://user-images.githubusercontent.com/26666155/143669240-35a560d5-f077-405f-a97e-344a4d95fb2a.png)
 
 1. Steps one
 2. Step two
