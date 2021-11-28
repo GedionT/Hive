@@ -95,6 +95,7 @@ This project is the result of huge research. I'm a long-time GitHub user so I've
 - [Nodejs]()
 - [Jest]()
 - [FluentUI]()
+- [Storybook]()
 - [GitHub]()
 - [GitHub Actions]()
 - [Netlify]()
