@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5a221ba1-1857-4bca-8dda-72f1b245eeb7/deploy-status)](https://app.netlify.com/sites/hive-et/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/5a221ba1-1857-4bca-8dda-72f1b245eeb7/deploy-status)](https://app.netlify.com/sites/hive-et/deploys) [![CodeQL](https://github.com/GedionT/Hive/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/GedionT/Hive/actions/workflows/codeql-analysis.yml) [![license](https://img.shields.io/github/license/gediont/hive.svg?style=flat-square)](LICENSE) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-a364b4.svg?style=flat-square)](https://github.com/gediont/hive/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) [![made with care by GedionT](https://img.shields.io/badge/made%20with%20%E2%99%A5%20by-GedionT-91414.svg?style=flat-square)](https://github.com/GedionT)
 
 <h1 align="center">
     <a href="https://gediont.github.io/Hive/" target="_blank" no-referrer>
@@ -18,15 +18,8 @@
 
 </div>
 
-<div align="center">
 <br />
-
-[![license](https://img.shields.io/github/license/gediont/hive.svg?style=flat-square)](LICENSE)
-
-[![PRs welcome](https://img.shields.io/badge/PRs-welcome-a364b4.svg?style=flat-square)](https://github.com/gediont/hive/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22)
-[![made with care by GedionT](https://img.shields.io/badge/made%20with%20%E2%99%A5%20by-GedionT-91414.svg?style=flat-square)](https://github.com/GedionT)
-
-</div>
+<hr />
 
 <details open="open">
 <summary>Table of Contents</summary>
@@ -81,7 +74,6 @@ This project is built based on Microsoft's Design System Guide and well known co
 known as Fluent UI - based on Microsoft's Design System
 
 This project is the result of huge research. I'm a long-time GitHub user so I've seen more than [7.3k](https://github.com/GedionT?tab=stars) READMEs so far. I've started writing docs for my open source projects (that are currently in their early stages so they exist in the private space for now). After I've **analyzed many popular GitHub** READMEs and other GitHub-related docs and features I've tried to create a general-propose template that may be useful for any project.
-    
 
 </details>
 
