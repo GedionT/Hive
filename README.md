@@ -1,7 +1,9 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/5a221ba1-1857-4bca-8dda-72f1b245eeb7/deploy-status)](https://app.netlify.com/sites/hive-et/deploys)
 
 <h1 align="center">
+    <a href="https://gediont.github.io/Hive/" target="_blank" no-referrer>
     <img src="./src/assets/hive.png" alt="Logo" width="125" height="125">
+    </a>
 </h1>
 
 <div align="center">
@@ -100,9 +102,11 @@ This project is the result of huge research. I'm a long-time GitHub user so I've
 - [Docker]()
 - [Google Analytics]()
 - [Google Maps]()
+- [MapBox GL]()
 - [MongoDB]()
 - [kSql]()
 - [Python]()
+- [PM2]()
 - [Tensorflow]()
 - [Tensorflow-Serve]()
 - [Apache Kafka]()
