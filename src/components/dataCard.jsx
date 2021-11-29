@@ -11,10 +11,20 @@ import PropTypes from 'prop-types';
 import { ImageFit } from '@fluentui/react/lib/Image';
 
 const people = [
-  { name: 'Gedion Teshome', profileImageSrc: 'https://img.src/ge' },
-  { name: 'Henok Fisseha', profileImageSrc: '', initials: 'RK' },
-  { name: 'Fasika Zewdie', profileImageSrc: 'https://img.src/ge' },
-  { name: 'Getachew Muhabaw', profileImageSrc: '', initials: 'CB' },
+  {
+    name: 'Gedion Teshome',
+    profileImageSrc: 'https://avatars.githubusercontent.com/u/26666155?v=4',
+  },
+  {
+    name: 'Henok Fisseha',
+    profileImageSrc: 'https://avatars.githubusercontent.com/u/26666155?v=4',
+    initials: 'HFT',
+  },
+  {
+    name: 'Fasika Zewdie',
+    profileImageSrc: 'https://avatars.githubusercontent.com/u/26666155?v=4',
+  },
+  { name: 'Getachew Muhabaw', profileImageSrc: '', initials: 'GM' },
 ];
 
 const oneNoteIconProps = {
@@ -81,14 +91,14 @@ export default function DataCard() {
         height: 150,
         imageFit: ImageFit.cover,
         imageSrc:
-          'https://image.shutterstock.com/image-vector/adhd-vector-concept-male-head-600w-1969700758.jpg',
+          'https://media.istockphoto.com/photos/pensive-school-boy-thinking-about-homework-project-writing-essay-picture-id962478086?k=20&m=962478086&s=612x612&w=0&h=PjHlmSAYIdBmhSNha5KF8BCt8KxntIRJL-VeR6NtaGI=',
         iconProps: oneNoteIconProps,
       }),
       React.createElement(
         DocumentCardDetails,
         null,
         React.createElement(DocumentCardTitle, {
-          title: 'Teach an ADHD a skill',
+          title: 'Teach an ADHD affected student a skill',
           shouldTruncate: true,
         })
       ),
