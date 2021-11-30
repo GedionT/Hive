@@ -1,7 +1,7 @@
-import React from "react";
-import NavigationBar from "../components/navigation";
+import React from 'react';
+import NavigationBar from '../components/navigation';
 
-import logo from "../assets/hive.png";
+import logo from '../assets/hive.png';
 
 export default function Home() {
   return (
