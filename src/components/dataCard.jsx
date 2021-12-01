@@ -9,10 +9,7 @@ import {
 import PropTypes from 'prop-types';
 import { ImageFit } from '@fluentui/react/lib/Image';
 
-// mock data import props
-import { openData } from '../services/mockData';
-
-export default function DataCard() {
+export default function DataCard({ openData }) {
   const cardStyles = {
     root: {
       display: 'inline-block',
@@ -39,8 +36,7 @@ export default function DataCard() {
         </DocumentCardDetails>
         <DocumentCardActivity
           activity={openData.activity}
-          people={openData.people.slice(0, 3)}
-          // {[people[3]]} another option
+          people={openData.people}
         />
       </DocumentCard>
     </div>
