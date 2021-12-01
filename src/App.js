@@ -1,4 +1,5 @@
 import './styles/App.css';
+import { initializeIcons } from '@fluentui/react/lib/Icons';
 
 // page import
 import Home from './pages/home';
@@ -10,6 +11,8 @@ import DataCard from './components/dataCard';
 
 // import data
 import { openData } from './services/mockData';
+
+initializeIcons(/* optional base url */);
 
 function App() {
   return (

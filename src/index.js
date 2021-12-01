@@ -7,9 +7,6 @@ import App from './App';
 import reportWebVitals from './utils/reportWebVitals';
 import * as serviceWorkerRegistration from './utils/serviceWorkerRegistration';
 import ReactGA from 'react-ga';
-import { initializeIcons } from '@fluentui/react/lib/Icons';
-
-initializeIcons(/* optional base url */);
 
 ReactGA.initialize('UA-xxxxxxxxxx-x');
 ReactGA.pageview(window.location.pathname + window.location.search);
