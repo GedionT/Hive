@@ -6,8 +6,13 @@ export default function NavigationBar(props) {
   return (
     <div>
       <Layer hostId={props.layerHostId}>
-        <div style={{ backgroundColor: 'whitesmoke' }}>
-          <div style={{ margin: '0 20px' }}>
+        <div
+          style={{
+            backgroundColor: 'whitesmoke',
+            padding: '18px',
+          }}
+        >
+          <div style={{ margin: '0 40px' }}>
             <Text>Hive.Et</Text>
             <div style={{ float: 'right' }}>
               <IconButton

@@ -1,1 +1,16 @@
+.container {
+  position: relative;
+  left: 20px;
+  height: 120px;
+  max-width: 200px;
+}
 
+.flex {
+  position: absolute;
+  right: 120px;
+  top: 300px;
+  padding: 12px 12px;
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+}
