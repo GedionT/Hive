@@ -30,7 +30,8 @@ export default function WeekPicker() {
   return (
     <div
       style={{
-        height: '360px',
+        height: '250px',
+        width: '280px',
       }}
     >
       <div>
